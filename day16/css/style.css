@@ -1,23 +1,17 @@
-div.gallery{
-    margin:5px;
-    border:1px solid #ccc;
-    float: left;
-    width: 180px;
+a[href="https://shkolladigjitale.com"]{
+    color: pink;
 }
-div.gallery:hover{
-    border:1px solid #777
+p[class*="ds"]{
+    background-color: lightpink;
+    color: white;
+    padding: 20px;
 }
-div.gallery img{
-width: 100%;
-height:auto;
-}
-div.desc{
-    padding:15px;
-    text-align:center;
-}
-.engineers{
-    width: 500px;
-    height:500px;
-    display: inline-block;
-    background-position: -500px -500px;
+p[class^="ds"]{
+    background-color: lightpink;
+    color: white;
+    padding: 20px;
+}p[class$="ds"]{
+    background-color: lightpink;
+    color: white;
+    padding: 20px;
 }
